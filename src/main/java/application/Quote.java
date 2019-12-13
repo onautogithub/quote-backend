@@ -86,7 +86,7 @@ public class Quote {
         // Set quote based on score.  This is for demonstration purposes only and is not intended to reflect a realistic mapping of scores to quotes.
         int quote = 0;
         if (score > 800)
-            quote = 30;
+            quote = 40;
         else if (score > 600)
             quote = 50;
         else if (score > 400)
